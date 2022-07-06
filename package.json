@@ -2,15 +2,18 @@
   "name": "mern-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mongoose": "^6.4.3",
     "validation": "^0.0.1"
